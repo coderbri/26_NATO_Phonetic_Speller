@@ -1,0 +1,27 @@
+# Longhand version of the phonetic speller logic
+
+# TODO 1: Create a dictionary in the following format: {"A": "Alfa", "B": "Bravo", ...}
+# Reading CSV and printing the DataFrame
+nato_dataframe = pandas.read_csv("nato_phonetic_alphabet.csv")
+print(nato_dataframe)
+
+# Looping through DataFrame to see individual rows
+for (index, row) in nato_dataframe.iterrows():
+    print(row.letter)
+    print(row.code)
+
+# Constructing dictionary from DataFrame without comprehension
+phonetic_dictionary = {}
+for (index, row) in nato_dataframe.iterrows():
+    phonetic_dictionary[row.letter] = row.code
+print(phonetic_dictionary)
+
+
+# TODO 2: Create a list of the phonetic code words from a word that the user inputs.
+# Iterating through user input to build a list of phonetic code words
+word = input("Enter a word: ").upper()
+phonemes = []
+for letter in word:
+    if letter in phonetic_dictionary:
+        phonemes.append(phonetic_dictionary[letter])
+print(phonemes)
