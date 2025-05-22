@@ -10,14 +10,14 @@ This project allows users to enter a word (e.g., their name), and returns a list
 - **List Comprehension**: To generate a list of phonetic words from user input.
 - **Reading CSV with Pandas**: To load and parse the NATO phonetic alphabet.
 
-## ⚙️ Features / Project Logic
+## Features / Project Logic
 
 - Loads a CSV file containing NATO phonetic codes.
 - Creates a dictionary mapping letters to their corresponding phonetic code.
 - Accepts user input and converts it to uppercase.
 - Outputs the phonetic spelling using list comprehension.
 
-## ▶️ How to Run
+## How to Run
 
 1. Ensure you have `pandas` installed:
    ```bash
