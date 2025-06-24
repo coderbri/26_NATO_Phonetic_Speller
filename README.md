@@ -27,12 +27,12 @@ This project allows users to enter a word (e.g., their name), and returns a list
 2. Make sure `nato_phonetic_alphabet.csv` is in the same directory as the script.
 
 3. Run the script:
-    ```py
+    ```
     python main.py
     ```
 
 4. Input a word when prompted and view the phonetic spelling.
-    ```py
+    ```
     Enter a word: jane doe
     ['Juliet', 'Alfa', 'November', 'Echo', 'Delta', 'Oscar', 'Echo']
     ```
@@ -40,3 +40,8 @@ This project allows users to enter a word (e.g., their name), and returns a list
 ## Acknowledgements
 
 Inspired by real-world communication needs for clear spelling over phone or radio, this project is implemented as part of a Python learning journey through Dr. Angela Yu's 100 Days of Code: Python Pro Bootcamp.
+
+---
+<section align="center">
+  <code>coderBri © 2025</code>
+</section>
